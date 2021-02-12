@@ -2,3 +2,35 @@
     margin: 0;
     padding: 0;
 }
+
+#header {
+    background-color: lightcoral;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+    box-sizing: border-box;
+    color: bisque;
+}
+
+#header .judul {
+    margin: auto 10% auto 20%;
+}
+
+
+#header #nav-bar {
+    width: 20%;
+}
+
+#header #nav-bar ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+#header #nav-bar ul li a{
+    text-decoration: none;
+    color: inherit;
+}
