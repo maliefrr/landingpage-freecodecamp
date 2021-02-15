@@ -5,13 +5,15 @@
 
 body {
     background-color: #eee;
+    color: black;
 }
 
 /* Nav Bar */
 
-#header {
+header {
     background-color: lightcoral;
     position: fixed;
+    top: 0;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -19,6 +21,8 @@ body {
     align-items: center;
     box-sizing: border-box;
     color: bisque;
+    z-index: 100;
+    height: 80px;
 }
 
 #header .judul {
@@ -39,6 +43,63 @@ body {
 #header #nav-bar ul li a{
     text-decoration: none;
     color: inherit;
+}
+
+main .product {
+    display: flex;
+    margin-top: 5.5%;
+    justify-content: space-between;
+    text-align: center;
+}
+
+main .product .judul-produk {
+    width: 65%;
+}
+
+main .product .judul-produk h1 {
+    margin: 300px auto;
+}
+
+main .product .contoh {
+    flex-wrap: wrap;
+}
+
+main .product .contoh img {
+    margin: 5px;
+}
+
+.video {
+    background-color: cornflowerblue;
+    color: cornsilk;
+    margin-top: 10%;
+    position: relative;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.video h1{
+    margin: 0 auto 40px auto;
+    text-align: center;
+}
+
+.video .kanan {
+    float: right;
+}
+
+.video .clear {
+    clear: both;
+}
+
+.video .kiri {
+    float: left;
+}
+
+.video .kanan h3 {
+    margin-bottom: 10px;
+}
+
+.video .kiri h3 {
+    margin-bottom: 10px;
 }
 
 
